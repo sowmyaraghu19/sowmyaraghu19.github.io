@@ -20,28 +20,22 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Sowmya Raghavendra",
+  title: "Hi all, I'm Sowmya",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "I am Sowmya Raghavendra, a passionate software engineer specializing in data engineering, machine learning, and backend development. Experienced with Python, PySpark, SQL, Spring Boot, and cloud platforms like Azure and GCP. I love solving complex problems, automating workflows, and building scalable data-driven applications. Currently, I’m pursuing my Master’s in Data Science and Analytics at Georgia State University, while also exploring opportunities that let me bridge the gap between software engineering and data-driven decision-making."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1SSgWzJCMOEUFzQDXzzubLKD4FRFHRrKB/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
-  // Instagram, Twitter and Kaggle are also supported in the links!
-  // To customize icons and social links, tweak src/components/SocialMedia
+  github: "https://github.com/sowmyaraghu19",
+  linkedin: "https://www.linkedin.com/in/sowmya-raghavendra",
+  gmail: "sowmyaraghu1901@gmail.com",
   display: true // Set true to display this section, defaults to false
 };
 
@@ -117,7 +111,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-docker"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Education Section
@@ -126,23 +120,22 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Georgia State University",
+      logo: require("./assets/images/GSULogo.png"),
+      subHeader: "Master of Science in Data Science and Analytics",
+      duration: "August 2024 - December 2025",
+      desc: "Atlanta, Georgia, United States of America",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "GPA: 4.00"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
+      schoolName: "Dayananda Sagar Academy of Technology and Management",
+      logo: require("./assets/images/DSILogo.png"),
       subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      duration: "August 2018 - July 2022",
+      desc: "Bangalore, Karnataka, India",
+      descBullets: ["GPA: 3.87"]
     }
   ]
 };
@@ -153,17 +146,25 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Python", //Insert stack or technology you have experience in
+      progressPercentage: "100%" //Insert relative proficiency in percentage
+    },
+	{
+      Stack: "PySpark", //Insert stack or technology you have experience in
+      progressPercentage: "80%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "SQL",
+      progressPercentage: "100%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
-    }
+      Stack: "Machine Learning",
+      progressPercentage: "100%"
+    },
+	{
+      Stack: "Java", //Insert stack or technology you have experience in
+      progressPercentage: "80%" //Insert relative proficiency in percentage
+    },
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -174,29 +175,38 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Graduate Research Assistant",
+      company: "Georgia State University",
+      companylogo: require("./assets/images/GSULogo.png"),
+      date: "January 2025 – May 2025",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Built a panel dataset combining Medicare claims with county-level health data",
+	"Designed pipelines integrating HCPCS codes and health indicators",
+	"Delivered insights on telehealth and AI usage in U.S. healthcare"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Graduate Research Assistant",
+      company: "Better Business Bureau",
+      companylogo: require("./assets/images/BBBLogo.png"),
+      date: "August 2024 – December 2024",
+      descBullets: [
+        "Developed ML model to predict business accreditation, improving accuracy by 25%",
+	"Performed sentiment analysis using NLP on external media sources",
+	"Automated 40% of workflows and led a cross-functional team of 10+ members"
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Software Consultant",
+      company: "Mercedes Benz",
+      companylogo: require("./assets/images/MBLogo.png"),
+      date: "August 2022 – August 2024",
+      descBullets: [
+        "Built and optimized ETL pipelines (Python, SQL) for large-scale data processing",
+	"Created Kafka-based event-driven architectures for real-time analytics",
+	"Integrated REST APIs and deployed Kubernetes-based microservices",
+	"Managed CI/CD pipelines using Azure DevOps, improving release efficiency by 35%"
+      ]
     }
   ]
 };
@@ -206,35 +216,56 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/NetflixLogo.png"),
+      projectName: "Netflix Data Engineering Pipeline",
+      projectDesc: "Built a cloud-based, end-to-end data pipeline to process and analyze Netflix data using Azure services. The solution automates data ingestion, transformation, and validation across raw, processed, and curated layers.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "View Project",
+          url: "https://github.com/sowmyaraghu19/Netflix-Data-Pipeline"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/USAacciLogo.png"),
+      projectName: "USA Accident Severity Prediction",
+      projectDesc: "Built a machine learning solution to predict traffic accident severity across the U.S. using environmental, temporal, and location-based data from over 2.8 million accident records. The goal was to improve emergency response efficiency and guide infrastructure planning.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "View Project",
+          url: "https://github.com/sowmyaraghu19/US-Accidents-Severity-Prediction"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/legaldoc.png"),
+      projectName: "LegalDoc AI Assistant",
+      projectDesc: "LegalDoc AI Assistant is a Streamlit app that helps legal professionals generate documents and gain case insights using AI, NLP, and RAG. It turns unstructured legal input into structured outputs, suggests arguments, and answers legal queries to streamline case preparation.",
+      footerLink: [
+        {
+          name: "View Project",
+          url: "https://github.com/sowmyaraghu19/Legal-Doc-AI-Assistant"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/Dashboard.png"),
+      projectName: "Vehicle Recommendation Engine",
+      projectDesc: "The Vehicle Recommendation Engine project involves an interactive Power BI dashboard to provide actionable insights for the automotive sales domain. This dashboard is designed to enhance user engagement and drive sales by leveraging data-driven analytics.",
+      footerLink: [
+        {
+          name: "View Project",
+          url: "https://github.com/sowmyaraghu19/Vehicle-Recommendation-Engine"
         }
       ]
     }
@@ -300,7 +331,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -324,7 +355,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +374,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,7 +387,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -372,18 +403,18 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+1-(470)-680-5113",
+  email_address: "sowmyaraghu1901@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
